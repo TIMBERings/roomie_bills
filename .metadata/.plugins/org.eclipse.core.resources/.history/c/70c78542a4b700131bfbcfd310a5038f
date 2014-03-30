@@ -1,0 +1,17 @@
+package com.roomiebills.entities;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="group")
+public class GroupEntity {
+	
+	@OneToOne(cascade = CascadeType.ALL, optional = false)
+	@JoinColumn(name = "account_id")
+	AccountEntity account;
+	
+	@OneToMany(cascade = CascadeType.ALL, optional = false)
+	@JoinColumn(name = "user_id")
+	UserEntity user;
+	
+}

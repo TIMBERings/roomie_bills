@@ -1,0 +1,5 @@
+package com.roomiebills.entities;
+
+public class BillEntity {
+
+}
