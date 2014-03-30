@@ -1,6 +1,0 @@
-*/build/**/*
-.metadata/*
-.metadata/**/*
-*.classpath
-*/.project**/*
-*/.settings/**/*
