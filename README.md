@@ -13,6 +13,7 @@
 3. Clone the repo to your computer
 
 > git clone https://github.com/<USERNAME>/roomie_bills.git
+
 4. Set up remote tracking
 
 > git remote add upstream git@github:roomiebills/roomie_bills.git
